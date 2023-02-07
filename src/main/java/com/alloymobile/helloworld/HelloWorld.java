@@ -16,4 +16,13 @@ public class HelloWorld {
             return "Hello World";
         }
     }
+
+    @GetMapping(value="/hello")
+    public String hello(@RequestParam(name="name", required = false)String name){
+        if(Objects.nonNull(name)){
+            return "Hello "+name;
+        }else{
+            return "Hello World";
+        }
+    }
 }
