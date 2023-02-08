@@ -20,8 +20,8 @@ public class HelloWorld {
         return helloWorldService.evenOdd(num);
     }
 
-    @GetMapping(value="/grade")
-    public String grade(@RequestParam(name="num")int num){
-        return helloWorldService.grade(num);
-    }
+//    @GetMapping(value="/grade")
+//    public String grade(@RequestParam(name="num")int num){
+//        return helloWorldService.grade(num);
+//    }
 }

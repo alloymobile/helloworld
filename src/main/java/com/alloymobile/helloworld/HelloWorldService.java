@@ -17,17 +17,17 @@ public class HelloWorldService {
         }
     }
 
-    public String grade(int num){
-        if(num >= 90){
-            return "Grade A";
-        }else if(num >= 80){
-            return "Grade B";
-        }else if(num >= 70){
-            return "Grade C";
-        }else if(num >= 55){
-            return "Grade D";
-        }else{
-            return "Grade F";
-        }
-    }
+//    public String grade(int num){
+//        if(num >= 90){
+//            return "Grade A";
+//        }else if(num >= 80){
+//            return "Grade B";
+//        }else if(num >= 70){
+//            return "Grade C";
+//        }else if(num >= 55){
+//            return "Grade D";
+//        }else{
+//            return "Grade F";
+//        }
+//    }
 }
