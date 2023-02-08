@@ -46,4 +46,18 @@ class HelloworldApplicationTests {
         Assertions.assertEquals(expected,actual);
     }
 
+    @Test
+    public void findMax_b() {
+        int expected = 72;
+        int actual = helloWorldService.findMax(45,72,7);
+        Assertions.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void findMax_c() {
+        int expected = 34;
+        int actual = helloWorldService.findMax(45,23,34);
+        Assertions.assertEquals(expected,actual);
+    }
+
 }
