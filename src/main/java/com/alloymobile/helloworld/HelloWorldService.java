@@ -23,4 +23,18 @@ public class HelloWorldService {
             return "Odd";
         }
     }
+
+    public String grade(int num){
+        if(num >= 90){
+            return "Grade A";
+        }else if(num >= 80 && num < 90){
+            return "Grade B";
+        }else if(num >= 70 && num < 80){
+            return "Grade C";
+        }else if(num >= 55 && num < 70){
+            return "Grade D";
+        }else{
+            return "Grade F";
+        }
+    }
 }

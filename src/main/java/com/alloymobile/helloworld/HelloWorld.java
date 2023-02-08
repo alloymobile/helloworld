@@ -23,4 +23,9 @@ public class HelloWorld {
     public String evenOdd(@RequestParam(name="num")int num){
         return helloWorldService.evenOdd(num);
     }
+
+    @GetMapping(value="/grade")
+    public String grade(@RequestParam(name="num")int num){
+        return helloWorldService.grade(num);
+    }
 }
