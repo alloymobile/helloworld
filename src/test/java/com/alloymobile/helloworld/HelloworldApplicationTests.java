@@ -24,19 +24,6 @@ class HelloworldApplicationTests {
 
     @Autowired
     HelloWorldService helloWorldService;
-    @Test
-    public void HelloWorld_greetMe_name() {
-        String expected = "Hello tapas";
-        String actual = helloWorldService.greetMe("tapas");
-        Assertions.assertEquals(expected,actual);
-    }
-
-    @Test
-    public void HelloWorld_greetMe() {
-        String expected = "Hello World";
-        String actual = helloWorldService.greetMe(null);
-        Assertions.assertEquals(expected,actual);
-    }
 
     @Test
     public void evenodd() {

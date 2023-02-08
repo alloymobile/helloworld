@@ -14,10 +14,6 @@ public class HelloWorld {
 
     @Autowired
     HelloWorldService helloWorldService;
-    @GetMapping(value="/greetme")
-    public String greetMe(@RequestParam(name="name", required = false)String name){
-        return helloWorldService.greetMe(name);
-    }
 
     @GetMapping(value="/evenodd")
     public String evenOdd(@RequestParam(name="num")int num){

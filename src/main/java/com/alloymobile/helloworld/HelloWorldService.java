@@ -8,13 +8,6 @@ import java.util.Objects;
 @Service
 public class HelloWorldService {
 
-    public String greetMe(String name){
-        if(Objects.nonNull(name)){
-            return "Hello "+name;
-        }else{
-            return "Hello World";
-        }
-    }
 
     public String evenOdd(int num){
         if(num % 2 == 0){
