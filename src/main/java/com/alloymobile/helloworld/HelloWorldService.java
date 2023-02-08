@@ -17,6 +17,22 @@ public class HelloWorldService {
         }
     }
 
+    public int findMax(int a, int b,int c){
+        if(a > b){
+            if(a > c){
+                return a;
+            }else{
+                return c;
+            }
+        }else{
+            if(b > c){
+                return b;
+            }else{
+                return c;
+            }
+        }
+    }
+
 //    public String grade(int num){
 //        if(num >= 90){
 //            return "Grade A";

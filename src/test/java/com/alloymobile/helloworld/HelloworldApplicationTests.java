@@ -26,9 +26,24 @@ class HelloworldApplicationTests {
     HelloWorldService helloWorldService;
 
     @Test
-    public void evenodd() {
+    public void evenodd_even() {
         String expected = "Even";
         String actual = helloWorldService.evenOdd(6);
         Assertions.assertEquals(expected,actual);
     }
+
+    @Test
+    public void evenodd_odd() {
+        String expected = "Odd";
+        String actual = helloWorldService.evenOdd(11);
+        Assertions.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void findMax_a() {
+        int expected = 45;
+        int actual = helloWorldService.findMax(45,23,7);
+        Assertions.assertEquals(expected,actual);
+    }
+
 }
