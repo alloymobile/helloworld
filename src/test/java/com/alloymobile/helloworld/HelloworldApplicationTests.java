@@ -1,14 +1,33 @@
 package com.alloymobile.helloworld;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.web.server.LocalServerPort;
+import org.springframework.http.ResponseEntity;
 import org.springframework.util.Assert;
+import org.springframework.web.client.RestTemplate;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTimeout;
+import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
 class HelloworldApplicationTests {
 
+    @Autowired
+    HelloWorldService helloWorldService;
     @Test
-    public void testName(){
-        Assert.isTrue(true,"True");
+    public void HelloWorld_greetMe_name() {
+        String expected = "Hello tapas";
+        String actual = helloWorldService.greetMe("tapas");
+        Assertions.assertEquals(expected,actual);
     }
 }
