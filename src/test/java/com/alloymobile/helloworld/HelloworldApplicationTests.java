@@ -30,4 +30,11 @@ class HelloworldApplicationTests {
         String actual = helloWorldService.greetMe("tapas");
         Assertions.assertEquals(expected,actual);
     }
+
+    @Test
+    public void HelloWorld_greetMe() {
+        String expected = "Hello World";
+        String actual = helloWorldService.greetMe(null);
+        Assertions.assertEquals(expected,actual);
+    }
 }
