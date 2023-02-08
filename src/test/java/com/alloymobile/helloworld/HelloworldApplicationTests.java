@@ -37,4 +37,11 @@ class HelloworldApplicationTests {
         String actual = helloWorldService.greetMe(null);
         Assertions.assertEquals(expected,actual);
     }
+
+    @Test
+    public void evenodd() {
+        String expected = "Even";
+        String actual = helloWorldService.evenOdd(6);
+        Assertions.assertEquals(expected,actual);
+    }
 }

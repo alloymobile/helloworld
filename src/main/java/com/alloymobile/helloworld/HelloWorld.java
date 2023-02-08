@@ -18,4 +18,9 @@ public class HelloWorld {
     public String greetMe(@RequestParam(name="name", required = false)String name){
         return helloWorldService.greetMe(name);
     }
+
+    @GetMapping(value="/evenodd")
+    public String evenOdd(@RequestParam(name="num")int num){
+        return helloWorldService.evenOdd(num);
+    }
 }

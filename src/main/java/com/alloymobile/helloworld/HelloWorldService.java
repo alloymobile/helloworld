@@ -15,4 +15,12 @@ public class HelloWorldService {
             return "Hello World";
         }
     }
+
+    public String evenOdd(int num){
+        if(num % 2 == 0){
+            return "Even";
+        }else{
+            return "Odd";
+        }
+    }
 }
