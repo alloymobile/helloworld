@@ -55,8 +55,8 @@ class HelloworldApplicationTests {
 
     @Test
     public void findMax_c() {
-        int expected = 34;
-        int actual = helloWorldService.findMax(45,23,34);
+        int expected = 99;
+        int actual = helloWorldService.findMax(45,23,99);
         Assertions.assertEquals(expected,actual);
     }
 
