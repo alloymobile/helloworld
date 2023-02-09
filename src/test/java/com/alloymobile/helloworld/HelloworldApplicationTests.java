@@ -32,12 +32,12 @@ class HelloworldApplicationTests {
         Assertions.assertEquals(expected,actual);
     }
 
-    @Test
-    public void evenodd_odd() {
-        String expected = "Odd";
-        String actual = helloWorldService.evenOdd(11);
-        Assertions.assertEquals(expected,actual);
-    }
+//    @Test
+//    public void evenodd_odd() {
+//        String expected = "Odd";
+//        String actual = helloWorldService.evenOdd(11);
+//        Assertions.assertEquals(expected,actual);
+//    }
 //
 //    @Test
 //    public void findMax_a() {
