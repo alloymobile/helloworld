@@ -101,25 +101,32 @@ class HelloworldApplicationTests {
 //        String actual = helloWorldService.grade(50);
 //        Assertions.assertEquals(expected,actual);
 //    }
+//
+//    @Test
+//    public void month_jan() {
+//        String expected = "January";
+//        String actual = helloWorldService.month(1);
+//        Assertions.assertEquals(expected,actual);
+//    }
+//
+//    @Test
+//    public void month_feb() {
+//        String expected = "February";
+//        String actual = helloWorldService.month(2);
+//        Assertions.assertEquals(expected,actual);
+//    }
+//
+//    @Test
+//    public void month_def() {
+//        String expected = "Hello";
+//        String actual = helloWorldService.month(1234);
+//        Assertions.assertEquals(expected,actual);
+//    }
 
     @Test
-    public void month_jan() {
-        String expected = "January";
-        String actual = helloWorldService.month(1);
-        Assertions.assertEquals(expected,actual);
-    }
-
-    @Test
-    public void month_feb() {
-        String expected = "February";
-        String actual = helloWorldService.month(2);
-        Assertions.assertEquals(expected,actual);
-    }
-
-    @Test
-    public void month_def() {
-        String expected = "Hello";
-        String actual = helloWorldService.month(1234);
+    public void greet_name() {
+        String expected = "Sam Sam Sam ";
+        String actual = helloWorldService.greet("Sam");
         Assertions.assertEquals(expected,actual);
     }
 }

@@ -47,14 +47,22 @@ public class HelloWorldService {
 //        }
 //    }
 
-        public String month(int num){
-        switch (num){
-            case 1:
-                return "January";
-            case 2:
-                return "February";
-            default:
-                return "Hello";
+//        public String month(int num){
+//        switch (num){
+//            case 1:
+//                return "January";
+//            case 2:
+//                return "February";
+//            default:
+//                return "Hello";
+//        }
+//    }
+
+    public String greet(String name){
+        String user = "";
+        for(int i=0;i<3;i++){
+            user = user +name+" ";
         }
+        return user;
     }
 }
