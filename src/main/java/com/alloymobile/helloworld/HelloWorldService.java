@@ -46,4 +46,15 @@ public class HelloWorldService {
             return "Grade F";
         }
     }
+
+        public String month(int num){
+        switch (num){
+            case 1:
+                return "January";
+            case 2:
+                return "February";
+            default:
+                return "Hello";
+        }
+    }
 }

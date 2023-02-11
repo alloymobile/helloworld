@@ -24,8 +24,13 @@ public class HelloWorld {
 //    public int findMax(@RequestParam(name="a")int a,@RequestParam(name="b")int b,@RequestParam(name="c")int c){
 //        return helloWorldService.findMax(a,b,c);
 //    }
-    @GetMapping(value="/grade")
+//    @GetMapping(value="/grade")
+//    public String grade(@RequestParam(name="num")int num){
+//        return helloWorldService.grade(num);
+//    }
+
+    @GetMapping(value="/month")
     public String grade(@RequestParam(name="num")int num){
-        return helloWorldService.grade(num);
+        return helloWorldService.month(num);
     }
 }

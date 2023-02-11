@@ -66,39 +66,60 @@ class HelloworldApplicationTests {
 //        int actual = helloWorldService.findMax(10,20,30);
 //        Assertions.assertEquals(expected,actual);
 //    }
+//
+//    @Test
+//    public void grade_a() {
+//        String expected = "Grade A";
+//        String actual = helloWorldService.grade(95);
+//        Assertions.assertEquals(expected,actual);
+//    }
+//
+//    @Test
+//    public void grade_b() {
+//        String expected = "Grade B";
+//        String actual = helloWorldService.grade(85);
+//        Assertions.assertEquals(expected,actual);
+//    }
+//
+//    @Test
+//    public void grade_c() {
+//        String expected = "Grade C";
+//        String actual = helloWorldService.grade(75);
+//        Assertions.assertEquals(expected,actual);
+//    }
+//
+//    @Test
+//    public void grade_d() {
+//        String expected = "Grade D";
+//        String actual = helloWorldService.grade(65);
+//        Assertions.assertEquals(expected,actual);
+//    }
+//
+//    @Test
+//    public void grade_f() {
+//        String expected = "Grade F";
+//        String actual = helloWorldService.grade(50);
+//        Assertions.assertEquals(expected,actual);
+//    }
 
     @Test
-    public void grade_a() {
-        String expected = "Grade A";
-        String actual = helloWorldService.grade(95);
+    public void month_jan() {
+        String expected = "January";
+        String actual = helloWorldService.month(1);
         Assertions.assertEquals(expected,actual);
     }
 
     @Test
-    public void grade_b() {
-        String expected = "Grade B";
-        String actual = helloWorldService.grade(85);
+    public void month_feb() {
+        String expected = "February";
+        String actual = helloWorldService.month(2);
         Assertions.assertEquals(expected,actual);
     }
 
     @Test
-    public void grade_c() {
-        String expected = "Grade C";
-        String actual = helloWorldService.grade(75);
-        Assertions.assertEquals(expected,actual);
-    }
-
-    @Test
-    public void grade_d() {
-        String expected = "Grade D";
-        String actual = helloWorldService.grade(65);
-        Assertions.assertEquals(expected,actual);
-    }
-
-    @Test
-    public void grade_f() {
-        String expected = "Grade F";
-        String actual = helloWorldService.grade(50);
+    public void month_def() {
+        String expected = "Hello";
+        String actual = helloWorldService.month(1234);
         Assertions.assertEquals(expected,actual);
     }
 }
