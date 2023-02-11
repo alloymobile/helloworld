@@ -97,8 +97,8 @@ class HelloworldApplicationTests {
 
     @Test
     public void grade_f() {
-        String expected = "Grade A";
-        String actual = helloWorldService.grade(99);
+        String expected = "Grade F";
+        String actual = helloWorldService.grade(50);
         Assertions.assertEquals(expected,actual);
     }
 }
