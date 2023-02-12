@@ -9,13 +9,13 @@ import java.util.Objects;
 public class HelloWorldService {
 
 
-//    public String evenOdd(int num){
-//        if(num % 2 == 0){
-//            return "Even";
-//        }else{
-//            return "Odd";
-//        }
-//    }
+    public String evenOdd(int num){
+        if(num % 2 == 0){
+            return "Even";
+        }else{
+            return "Odd";
+        }
+    }
 
 //    public int findMax(int a, int b,int c){
 //        if(a > b){
@@ -58,11 +58,11 @@ public class HelloWorldService {
 //        }
 //    }
 
-    public String greet(String name){
-        String user = "";
-        for(int i=0;i<3;i++){
-            user = user +name+" ";
-        }
-        return user;
-    }
+//    public String greet(String name){
+//        String user = "";
+//        for(int i=0;i<3;i++){
+//            user = user +name+" ";
+//        }
+//        return user;
+//    }
 }

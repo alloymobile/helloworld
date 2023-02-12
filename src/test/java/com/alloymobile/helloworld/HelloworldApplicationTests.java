@@ -25,13 +25,13 @@ class HelloworldApplicationTests {
     @Autowired
     HelloWorldService helloWorldService;
 
-//    @Test
-//    public void evenodd_even() {
-//        String expected = "Even";
-//        String actual = helloWorldService.evenOdd(6);
-//        Assertions.assertEquals(expected,actual);
-//    }
-//
+    @Test
+    public void evenodd_even() {
+        String expected = "Even";
+        String actual = helloWorldService.evenOdd(6);
+        Assertions.assertEquals(expected,actual);
+    }
+
 //    @Test
 //    public void evenodd_odd() {
 //        String expected = "Odd";
@@ -123,10 +123,10 @@ class HelloworldApplicationTests {
 //        Assertions.assertEquals(expected,actual);
 //    }
 
-    @Test
-    public void greet_name() {
-        String expected = "Sam Sam Sam ";
-        String actual = helloWorldService.greet("Sam");
-        Assertions.assertEquals(expected,actual);
-    }
+//    @Test
+//    public void greet_name() {
+//        String expected = "Sam Sam Sam ";
+//        String actual = helloWorldService.greet("Sam");
+//        Assertions.assertEquals(expected,actual);
+//    }
 }

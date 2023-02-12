@@ -15,10 +15,10 @@ public class HelloWorld {
     @Autowired
     HelloWorldService helloWorldService;
 
-//    @GetMapping(value="/evenodd")
-//    public String evenOdd(@RequestParam(name="num")int num){
-//        return helloWorldService.evenOdd(num);
-//    }
+    @GetMapping(value="/evenodd")
+    public String evenOdd(@RequestParam(name="num")int num){
+        return helloWorldService.evenOdd(num);
+    }
 
 //    @GetMapping(value="/findMax")
 //    public int findMax(@RequestParam(name="a")int a,@RequestParam(name="b")int b,@RequestParam(name="c")int c){
@@ -34,8 +34,8 @@ public class HelloWorld {
 //        return helloWorldService.month(num);
 //    }
 
-    @GetMapping(value="/hello")
-    public String greet(@RequestParam(name="num")String name){
-        return helloWorldService.greet(name);
-    }
+//    @GetMapping(value="/hello")
+//    public String greet(@RequestParam(name="num")String name){
+//        return helloWorldService.greet(name);
+//    }
 }
