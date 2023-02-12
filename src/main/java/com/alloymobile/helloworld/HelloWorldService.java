@@ -17,35 +17,35 @@ public class HelloWorldService {
 //        }
 //    }
 
-    public int findMax(int a, int b,int c){
-        if(a > b){
-            if(a > c){
-                return a;
-            }else{
-                return c;
-            }
-        }else{
-            if(b > c){
-                return b;
-            }else{
-                return c;
-            }
-        }
-    }
-
-//    public String grade(int num){
-//        if(num >= 90){
-//            return "Grade A";
-//        }else if(num >= 80){
-//            return "Grade B";
-//        }else if(num >= 70){
-//            return "Grade C";
-//        }else if(num >= 55){
-//            return "Grade D";
+//    public int findMax(int a, int b,int c){
+//        if(a > b){
+//            if(a > c){
+//                return a;
+//            }else{
+//                return c;
+//            }
 //        }else{
-//            return "Grade F";
+//            if(b > c){
+//                return b;
+//            }else{
+//                return c;
+//            }
 //        }
 //    }
+
+    public String grade(int num){
+        if(num >= 90){
+            return "Grade A";
+        }else if(num >= 80){
+            return "Grade B";
+        }else if(num >= 70){
+            return "Grade C";
+        }else if(num >= 55){
+            return "Grade D";
+        }else{
+            return "Grade F";
+        }
+    }
 
 //        public String month(int num){
 //        switch (num){

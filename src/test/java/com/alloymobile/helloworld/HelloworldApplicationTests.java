@@ -39,48 +39,48 @@ class HelloworldApplicationTests {
 //        Assertions.assertEquals(expected,actual);
 //    }
 
-    @Test
-    public void findMax_a() {
-        int expected = 40;
-        int actual = helloWorldService.findMax(40,20,10);
-        Assertions.assertEquals(expected,actual);
-    }
-
-    @Test
-    public void findMax_b() {
-        int expected = 20;
-        int actual = helloWorldService.findMax(10,20,5);
-        Assertions.assertEquals(expected,actual);
-    }
-
-    @Test
-    public void findMax_c() {
-        int expected = 60;
-        int actual = helloWorldService.findMax(40,20,60);
-        Assertions.assertEquals(expected,actual);
-    }
-
-    @Test
-    public void findMax_c2() {
-        int expected = 30;
-        int actual = helloWorldService.findMax(10,20,30);
-        Assertions.assertEquals(expected,actual);
-    }
-
 //    @Test
-//    public void grade_a() {
-//        String expected = "Grade A";
-//        String actual = helloWorldService.grade(95);
+//    public void findMax_a() {
+//        int expected = 40;
+//        int actual = helloWorldService.findMax(40,20,10);
 //        Assertions.assertEquals(expected,actual);
 //    }
 //
 //    @Test
-//    public void grade_b() {
-//        String expected = "Grade B";
-//        String actual = helloWorldService.grade(85);
+//    public void findMax_b() {
+//        int expected = 20;
+//        int actual = helloWorldService.findMax(10,20,5);
 //        Assertions.assertEquals(expected,actual);
 //    }
 //
+//    @Test
+//    public void findMax_c() {
+//        int expected = 60;
+//        int actual = helloWorldService.findMax(40,20,60);
+//        Assertions.assertEquals(expected,actual);
+//    }
+//
+//    @Test
+//    public void findMax_c2() {
+//        int expected = 30;
+//        int actual = helloWorldService.findMax(10,20,30);
+//        Assertions.assertEquals(expected,actual);
+//    }
+
+    @Test
+    public void grade_a() {
+        String expected = "Grade A";
+        String actual = helloWorldService.grade(95);
+        Assertions.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void grade_b() {
+        String expected = "Grade B";
+        String actual = helloWorldService.grade(85);
+        Assertions.assertEquals(expected,actual);
+    }
+
 //    @Test
 //    public void grade_c() {
 //        String expected = "Grade C";

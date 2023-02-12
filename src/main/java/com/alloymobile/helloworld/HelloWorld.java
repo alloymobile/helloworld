@@ -20,15 +20,15 @@ public class HelloWorld {
 //        return helloWorldService.evenOdd(num);
 //    }
 
-    @GetMapping(value="/findMax")
-    public int findMax(@RequestParam(name="a")int a,@RequestParam(name="b")int b,@RequestParam(name="c")int c){
-        return helloWorldService.findMax(a,b,c);
-    }
-//    @GetMapping(value="/grade")
-//    public String grade(@RequestParam(name="num")int num){
-//        return helloWorldService.grade(num);
+//    @GetMapping(value="/findMax")
+//    public int findMax(@RequestParam(name="a")int a,@RequestParam(name="b")int b,@RequestParam(name="c")int c){
+//        return helloWorldService.findMax(a,b,c);
 //    }
-//
+    @GetMapping(value="/grade")
+    public String grade(@RequestParam(name="num")int num){
+        return helloWorldService.grade(num);
+    }
+
 //    @GetMapping(value="/month")
 //    public String grade(@RequestParam(name="num")int num){
 //        return helloWorldService.month(num);
