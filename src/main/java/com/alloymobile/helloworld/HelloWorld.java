@@ -29,13 +29,13 @@ public class HelloWorld {
 //        return helloWorldService.grade(num);
 //    }
 
-    @GetMapping(value="/month")
-    public String grade(@RequestParam(name="num")int num){
-        return helloWorldService.month(num);
-    }
-
-//    @GetMapping(value="/hello")
-//    public String greet(@RequestParam(name="num")String name){
-//        return helloWorldService.greet(name);
+//    @GetMapping(value="/month")
+//    public String grade(@RequestParam(name="num")int num){
+//        return helloWorldService.month(num);
 //    }
+
+    @GetMapping(value="/hello")
+    public String greet(@RequestParam(name="num")String name){
+        return helloWorldService.greet(name);
+    }
 }
