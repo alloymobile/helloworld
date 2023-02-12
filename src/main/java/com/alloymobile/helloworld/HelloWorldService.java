@@ -32,33 +32,33 @@ public class HelloWorldService {
 //            }
 //        }
 //    }
-
-    public String grade(int num){
-        if(num >= 90 && num <= 100){
-            return "Grade A";
-        }else if(num >= 80 && num < 90){
-            return "Grade B";
-        }else if(num >= 70 && num < 80){
-            return "Grade C";
-        }else if(num >= 55 && num < 70){
-            return "Grade D";
-        }else if(num >= 0 && num < 55){
-            return "Grade F";
-        }else{
-            return "Invalid Marks";
-        }
-    }
-
-//        public String month(int num){
-//        switch (num){
-//            case 1:
-//                return "January";
-//            case 2:
-//                return "February";
-//            default:
-//                return "Hello";
+//
+//    public String grade(int num){
+//        if(num >= 90 && num <= 100){
+//            return "Grade A";
+//        }else if(num >= 80 && num < 90){
+//            return "Grade B";
+//        }else if(num >= 70 && num < 80){
+//            return "Grade C";
+//        }else if(num >= 55 && num < 70){
+//            return "Grade D";
+//        }else if(num >= 0 && num < 55){
+//            return "Grade F";
+//        }else{
+//            return "Invalid Marks";
 //        }
 //    }
+
+        public String month(int num){
+        switch (num){
+            case 1:
+                return "January";
+            case 2:
+                return "February";
+            default:
+                return "Hello";
+        }
+    }
 
 //    public String greet(String name){
 //        String user = "";
