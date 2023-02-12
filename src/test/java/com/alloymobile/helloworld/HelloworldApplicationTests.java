@@ -60,13 +60,13 @@ class HelloworldApplicationTests {
         Assertions.assertEquals(expected,actual);
     }
 
-//    @Test
-//    public void findMax_c2() {
-//        int expected = 30;
-//        int actual = helloWorldService.findMax(10,20,30);
-//        Assertions.assertEquals(expected,actual);
-//    }
-//
+    @Test
+    public void findMax_c2() {
+        int expected = 30;
+        int actual = helloWorldService.findMax(10,20,30);
+        Assertions.assertEquals(expected,actual);
+    }
+
 //    @Test
 //    public void grade_a() {
 //        String expected = "Grade A";
