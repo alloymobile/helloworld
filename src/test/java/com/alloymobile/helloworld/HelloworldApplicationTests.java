@@ -81,27 +81,27 @@ class HelloworldApplicationTests {
         Assertions.assertEquals(expected,actual);
     }
 
-//    @Test
-//    public void grade_c() {
-//        String expected = "Grade C";
-//        String actual = helloWorldService.grade(75);
-//        Assertions.assertEquals(expected,actual);
-//    }
-//
-//    @Test
-//    public void grade_d() {
-//        String expected = "Grade D";
-//        String actual = helloWorldService.grade(65);
-//        Assertions.assertEquals(expected,actual);
-//    }
-//
-//    @Test
-//    public void grade_f() {
-//        String expected = "Grade F";
-//        String actual = helloWorldService.grade(50);
-//        Assertions.assertEquals(expected,actual);
-//    }
-//
+    @Test
+    public void grade_c() {
+        String expected = "Grade C";
+        String actual = helloWorldService.grade(75);
+        Assertions.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void grade_d() {
+        String expected = "Grade D";
+        String actual = helloWorldService.grade(65);
+        Assertions.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void grade_f() {
+        String expected = "Grade F";
+        String actual = helloWorldService.grade(50);
+        Assertions.assertEquals(expected,actual);
+    }
+
 //    @Test
 //    public void month_jan() {
 //        String expected = "January";
