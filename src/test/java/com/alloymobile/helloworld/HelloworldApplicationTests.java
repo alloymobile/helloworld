@@ -102,6 +102,20 @@ class HelloworldApplicationTests {
         Assertions.assertEquals(expected,actual);
     }
 
+    @Test
+    public void grade_invalid_105() {
+        String expected = "Invalid Marks";
+        String actual = helloWorldService.grade(105);
+        Assertions.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void grade_invalid_negative() {
+        String expected = "Invalid Marks";
+        String actual = helloWorldService.grade(-45);
+        Assertions.assertEquals(expected,actual);
+    }
+
 //    @Test
 //    public void month_jan() {
 //        String expected = "January";
